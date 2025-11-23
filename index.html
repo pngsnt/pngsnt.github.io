@@ -75,7 +75,8 @@
     footer{margin-top:18px;padding:12px;border-radius:10px;text-align:center;color:var(--muted)}
 
     img{max-width:100%;height:auto;display:block}
-  </style>  <!-- Structured data: Organization, Website, Product (offers), FAQ -->  <script type="application/ld+json">
+  .center-header{display:flex;justify-content:center;align-items:center;text-align:center;padding:32px 0}.center-header .header-inner{max-width:360px;margin:auto}.center-header .header-logo{margin:0 auto 12px auto;display:block}.center-header .header-title{font-size:1.25rem;font-weight:700;margin-bottom:6px}.center-header .header-sub{font-size:.9rem;color:var(--muted)}
+</style>  <!-- Structured data: Organization, Website, Product (offers), FAQ -->  <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@graph":[
@@ -99,16 +100,13 @@
   </script></head>
 <body>
   <div class="wrap">
-    <header>
-      <div class="brand">
-        <div class="logo" aria-hidden="true">PingsNet</div>
-        <div>
-          <h1>PingsNet — خرید VPN، خرید فیلترشکن و سرویس V2Ray</h1>
-          <div class="tag">پرسرعت • پایدار • امن — پشتیبانی 24/7</div>
-        </div>
-</header>
-
-<main>
+    <header class="header center-header">
+  <div class="header-inner">
+    <img src="/assets/logo.webp" alt="PingsNet Logo" class="header-logo" width="72" height="72">
+    <h1 class="header-title">PingsNet — خرید VPN، خرید فیلترشکن و سرویس V2Ray</h1>
+    <p class="header-sub">پرسرعت • پایدار • امن — پشتیبانی 24/7</p>
+  </div>
+</header><main>
   <div class="grid">
     <section class="card hero" id="hero">
       <h2>اتصال ایمن و بدون محدودیت — خرید VPN و خرید فیلترشکن</h2>
